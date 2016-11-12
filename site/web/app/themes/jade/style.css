@@ -1,0 +1,81 @@
+/*
+ Theme Name:   Jade
+ Theme URI:    
+ Description:  Child theme for jadedigital, based on Optimizer
+ Author:       Aaron Greene
+ Template:     optimizer
+ Version:      1.0.0
+ Tags: two-columns, left-sidebar, custom-background, custom-colors, custom-menu, featured-images, theme-options, right-sidebar, full-width-template, one-column, three-columns, flexible-header, rtl-language-support, sticky-post, threaded-comments, translation-ready, photography, portfolio, e-commerce
+*/
+
+.page-id-10 .page_head {
+  display: none;
+}
+
+.page-id-10 #content {
+  margin-top: 0px;
+}
+
+.header {
+  border-bottom: 4px solid #e03d4d;
+}
+
+.home .header {
+  border-bottom: none;
+}
+
+.static_cta1.cta_hollow {
+  color: #e03d4d;
+}
+
+.static_cta1.cta_hollow:hover {
+  background: #e03d4d!important;
+  border-color: #e03d4d!important;
+}
+
+.static_cta2.cta_flat {
+  display: none;
+}
+
+.logo img {
+  width: 250px;
+}
+
+#footer {
+    background: #e03d4d!important;
+}
+
+#footer .widgets .widget {
+    width: 100%;
+}
+
+.footer_button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  border: 2px solid;
+  color: #ffffff!important;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.footer_button:hover {
+  background: #3de0bf	!important;
+  border-color: #3de0bf	!important;
+  color: #333333!important;
+}
+
+.midrow_block img {
+    width: 40%;
+    -webkit-transition: width .1s;
+    transition: width .1s;
+}
+
+.midrow_block img:hover {
+    width: 45%;
+}
+
+.page_head {
+  background: url(assets/images/page-header2.png)!important;
+}
+

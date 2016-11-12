@@ -1,0 +1,16 @@
+{
+  "name": "jadedigital/jade",
+  "description": "WordPress Plugin description",
+  "keywords": ["wordpress", "theme", "jadedigital"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aaron Greene"
+    }
+  ],
+  "type": "wordpress-theme",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.2.0"
+  }
+}
