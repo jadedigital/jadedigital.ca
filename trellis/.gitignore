@@ -1,4 +1,5 @@
 .vault_pass
+.wp_pass
 .vagrant
 vendor/roles
 *.py[co]
