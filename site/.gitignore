@@ -13,7 +13,7 @@ web/.htaccess
 # WP-CLI
 db-sync
 sql-dump-*.sql
-jadedigital_com_development.sql
+jadedigital_*.sql
 
 # Dotenv
 .env
