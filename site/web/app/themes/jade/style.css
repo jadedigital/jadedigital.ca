@@ -54,12 +54,19 @@
   padding-top:60px;
 }
 
+#wordpress {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 #hosting {
+  padding-top:60px;
   padding-bottom:60px;
 }
 
 #pgc-10-1-0, #pgc-10-1-1 {
   padding-left: 40px!important;
+  padding-right: 40px!important;
 }
 
 .sow-headline {
@@ -178,3 +185,8 @@
     text-align: left;
 }
 
+
+@media (max-width: 480px) {
+  .jade-logo-home {
+    content: url(assets/images/jade-logo2.svg);
+}

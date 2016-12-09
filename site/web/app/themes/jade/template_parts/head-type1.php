@@ -20,7 +20,7 @@ global $optimizer;?>
                 <div class="logo <?php echo $hidedesc; ?>">
                     <?php if(!empty($optimizer['logo_image_id']['url'])){   ?>
                         <?php if ( is_home() ) { ?>                         
-                            <a class="logoimga" title="<?php bloginfo('name') ;?>" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php $logo = $optimizer['logo_image_id']; echo $logo['url']; ?>" /></a>
+                            <a class="logoimga" title="<?php bloginfo('name') ;?>" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="jade-logo-home" src="<?php $logo = $optimizer['logo_image_id']; echo $logo['url']; ?>" /></a>
                             <span class="desc"><?php echo bloginfo('description'); ?></span>
                         <?php }else{ ?>
                             <a class="logoimga" title="<?php bloginfo('name') ;?>" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo home_url( '/' )?>app/themes/jade/assets/images/jade-logo2.svg" /></a>
