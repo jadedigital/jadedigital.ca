@@ -10,9 +10,10 @@ example:
 ## Depoly
 
 Deploy with a single command: `./bin/deploy.sh <environment> <domain>`
+You may need to make your ssh key available to ssh-agent if you have rebooted: `ssh-add -k`
 
 example:
-  `./bin/deploy.sh production jadedigital.ca`
+  `./deploy.sh production jadedigital.ca`
 
 ## Rollback
 
