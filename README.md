@@ -18,7 +18,7 @@ Provision server with a single command: `ansible-playbook server.yml -e env=<env
 You may need to make your ssh key available to ssh-agent if you have rebooted: `ssh-add -k`
 
 example:
-  `ansible-playbook server.yml -e env=<production>`
+  `ansible-playbook server.yml -e env=production`
 
 ## Deploy
 
@@ -33,4 +33,4 @@ example:
 Rollback with a single command: `ansible-playbook rollback.yml -e "site=<domain> env=<environment>"`
 
 example:
-  `ansible-playbook rollback.yml -e "site=<jadedigital.ca> env=<production>"`
+  `ansible-playbook rollback.yml -e "site=jadedigital.ca env=production"`
